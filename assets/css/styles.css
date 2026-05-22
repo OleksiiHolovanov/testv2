@@ -1080,3 +1080,37 @@ details p { color: #c9b995; }
     padding-right: 0;
   }
 }
+
+
+/* Mobile provider title + speed correction. */
+.section-title {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+#providers .section-title span {
+  display: inline-block;
+  max-width: 100%;
+}
+.hero picture[aria-hidden="true"] {
+  display: contents;
+}
+@media (max-width: 640px) {
+  #providers .section-title {
+    font-size: clamp(32px, 10.2vw, 48px);
+    line-height: 1.02;
+    letter-spacing: 0;
+    text-wrap: balance;
+  }
+  #providers .section-title span {
+    display: block;
+  }
+  .hero__overlay {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  #providers .section-title {
+    font-size: clamp(30px, 9.5vw, 40px);
+  }
+}
