@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://script.google.com https://script.googleusercontent.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://script.google.com https://script.googleusercontent.com; object-src 'none'; base-uri 'self'; form-action 'self' https://script.google.com https://script.googleusercontent.com; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <title>Start Journey | GoldTrail Social</title>
+  <meta name="description" content="GoldTrail Social is a US social casino experience with virtual Gold Coins, Sweeps Coins, community play and a NO PURCHASE NECESSARY offer for eligible players.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Start Journey | GoldTrail Social">
+  <meta property="og:description" content="Join GoldTrail Social for virtual coin entertainment, social game themes and a starter offer. NO PURCHASE NECESSARY. Void where prohibited.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico?v=gt-journey-v2-header-buttons">
+  <link rel="preload" as="image" href="../assets/img/goldtrail-social-logo.webp?v=gt-journey-v2-header-buttons">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=gt-journey-v2-header-buttons">
+  <script src="../assets/js/config.js?v=gt-journey-v2-header-buttons" defer></script>
+  <script src="../assets/js/app.js?v=gt-journey-v2-header-buttons" defer></script>
+</head>
+<body>
+  <div class="promo-bar" role="banner">
+    <div class="promo-bar__inner container">
+      <span>✦ <span data-main-offer>Begin the trail with 30 Coins for just $10</span></span>
+      <a class="promo-bar__btn" href="../signup/">Claim Offer</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="logo" href="../" aria-label="GoldTrail Social home">
+        <img src="../assets/img/goldtrail-social-logo.webp?v=gt-journey-v2-header-buttons" width="866" height="288" alt="GoldTrail Social logo with golden compass" decoding="async">
+      </a>
+      <nav class="wayfinder" aria-label="Journey navigation">
+        <a href="../#how-it-works">How it works</a>
+        <a href="../#rewards">Rewards</a>
+        <a href="../#providers">Providers</a>
+        <a href="../#faq">Help</a>
+      </nav>
+      <nav class="nav-actions" aria-label="Primary navigation">
+        <a class="btn btn-ghost btn-small" href="../login/">Login</a>
+        <a class="btn btn-primary btn-small" href="../signup/">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-wrap">
+    <div class="container">
+      <section data-auth-area class="auth-card" aria-labelledby="signupTitle">
+        <div class="form-offer">
+          <div class="form-offer__art" aria-hidden="true"></div>
+          <div><h2 id="signupTitle">Sign Up</h2><p><strong data-form-offer>Join the journey & claim 200,000 GC + 2 SC</strong><br>18+ only. NO PURCHASE NECESSARY. Void where prohibited.</p></div>
+        </div>
+        <div class="progress" aria-label="Registration progress">
+          <span data-progress-dot="1" class="progress__dot active"></span><span class="progress__bar"></span>
+          <span data-progress-dot="2" class="progress__dot"></span><span class="progress__bar"></span>
+          <span data-progress-dot="3" class="progress__dot"></span><span class="progress__bar"></span>
+          <span data-progress-dot="4" class="progress__dot gift">🎁</span>
+        </div>
+        <form id="signupForm" novalidate>
+          <section data-step="1">
+            <div class="step-label">Registration details <span class="step-pill">Step 1</span></div>
+            <div class="form-grid" style="margin-top:16px">
+              <div class="field"><label for="email">Email</label><input class="input" id="email" name="email" type="email" autocomplete="email" required><div class="error-msg" data-error-for="email"></div></div>
+              <div class="field"><label for="password">Password</label><div class="input-wrap"><input class="input" id="password" name="password" type="password" autocomplete="new-password" required minlength="8"><button class="eye-btn" type="button" data-toggle-password aria-label="Show password">👁</button></div><div class="error-msg" data-error-for="password"></div></div>
+              <label class="checkbox"><input type="checkbox" name="termsAccepted" value="yes" required><span>I have read and accept <a href="../terms/" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>.</span></label><div class="error-msg" data-error-for="termsAccepted"></div>
+              <label class="checkbox"><input type="checkbox" name="privacyAccepted" value="yes" required><span>I have read and accept the <a href="../privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</span></label><div class="error-msg" data-error-for="privacyAccepted"></div>
+              <p class="form-disclaimer">By creating an account, you confirm you are 18+ and understand that GoldTrail Social uses virtual coins only. No real-money gambling. NO PURCHASE NECESSARY. Void where prohibited.</p>
+              <button class="btn btn-primary btn-full" type="button" data-next-step="2">Sign Up</button>
+            </div>
+            <div class="auth-meta">Have an account? <a href="../login/">Sign In</a></div>
+          </section>
+          <section data-step="2" hidden>
+            <div class="step-label">Personal details <span class="step-pill">Step 2</span></div>
+            <div class="form-grid" style="margin-top:16px">
+              <div class="field"><label for="firstName">First Name</label><input class="input" id="firstName" name="firstName" type="text" autocomplete="given-name" required><div class="error-msg" data-error-for="firstName"></div></div>
+              <div class="field"><label for="lastName">Last Name</label><input class="input" id="lastName" name="lastName" type="text" autocomplete="family-name" required><div class="error-msg" data-error-for="lastName"></div></div>
+              <div class="field-group-label">Date of Birth</div>
+              <div class="form-row">
+                <div class="field"><label for="birthMonth">Month</label><input class="input" id="birthMonth" name="birthMonth" type="number" inputmode="numeric" min="1" max="12" placeholder="MM" required><div class="error-msg" data-error-for="birthMonth"></div></div>
+                <div class="field"><label for="birthDay">Day</label><input class="input" id="birthDay" name="birthDay" type="number" inputmode="numeric" min="1" max="31" placeholder="DD" required><div class="error-msg" data-error-for="birthDay"></div></div>
+              </div>
+              <div class="field"><label for="birthYear">Year</label><input class="input" id="birthYear" name="birthYear" type="number" inputmode="numeric" min="1900" placeholder="YYYY" required><div class="error-msg" data-error-for="birthYear"></div></div>
+              <div class="form-actions"><button class="btn btn-ghost back-btn" type="button" data-prev-step="1" aria-label="Back">←</button><button class="btn btn-primary" type="button" data-next-step="3">Next</button></div>
+            </div>
+          </section>
+          <section data-step="3" hidden>
+            <div class="step-label">Address and phone <span class="step-pill">Step 3</span></div>
+            <div class="form-grid" style="margin-top:16px">
+              <div class="form-row">
+                <div class="field"><label for="city">City</label><input class="input" id="city" name="city" type="text" autocomplete="address-level2" required><div class="error-msg" data-error-for="city"></div></div>
+                <div class="field"><label for="postalCode">Postal code</label><input class="input" id="postalCode" name="postalCode" type="text" inputmode="numeric" autocomplete="postal-code" required><div class="error-msg" data-error-for="postalCode"></div></div>
+              </div>
+              <div class="field"><label for="state">State</label><select id="state" name="state" data-us-states required><option value="">Select state</option></select><div class="error-msg" data-error-for="state"></div></div>
+              <div class="field"><label for="address">Address</label><input class="input" id="address" name="address" type="text" autocomplete="street-address" required><div class="error-msg" data-error-for="address"></div></div>
+              <div class="field"><label for="phone">Phone</label><div class="phone-row"><div class="phone-prefix">🇺🇸 +1</div><input class="input" id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="Number" required></div><div class="error-msg" data-error-for="phone"></div></div>
+              <div class="form-actions"><button class="btn btn-ghost back-btn" type="button" data-prev-step="2" aria-label="Back">←</button><button class="btn btn-primary" type="submit">Claim Reward</button></div>
+            </div>
+          </section>
+          <div id="signupStatus" class="status-box" role="status" aria-live="polite"></div>
+        </form>
+      </section>
+      <section id="offerScreen" class="offer-screen">
+        <div class="offer-card">
+          <span class="badge">Starter offer ready</span>
+          <h1 class="section-title">Your journey pack is <span>ready</span></h1>
+          <p class="section-lead">Your GoldTrail Social account is ready. Claim the starter coin package and continue along the map-inspired social play route.</p>
+          <div class="offer-price">30 GC · $10</div>
+          <ul><li>Starter package for social play</li><li>Includes virtual Gold Coins only</li><li>No real-money gambling, no cash value</li><li>Purchase is optional and not required to play</li><li>NO PURCHASE NECESSARY. Void where prohibited.</li></ul>
+          <div class="hero__actions"><a class="btn btn-primary" href="../checkout/">Buy Offer</a><a class="btn btn-ghost" href="../account/">Go to Account</a></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-logo" href="../" aria-label="GoldTrail Social home"><img src="../assets/img/goldtrail-social-logo.webp?v=gt-journey-v2-header-buttons" width="866" height="288" loading="lazy" alt="GoldTrail Social logo with golden compass" decoding="async"></a>
+        <p class="section-lead">A cinematic social casino journey built around virtual coins, map-inspired game worlds, community moments and responsible 18+ play.</p>
+      </div>
+      <div>
+        <div class="footer-title">Player Support</div>
+        <div class="footer-links">
+          <a data-support-email href="mailto:oleksiiholovanov1998@gmail.com">oleksiiholovanov1998@gmail.com</a>
+          <a href="../login/">Login</a>
+          <a href="../signup/">Start Journey</a>
+        </div>
+      </div>
+      <div>
+        <div class="age-badge">18+</div>
+        <div class="footer-title">Legal</div>
+        <div class="footer-links">
+          <a href="../responsible-social-gameplay/">Responsible Social Gameplay</a>
+          <a href="../terms/">Terms & Conditions</a>
+          <a href="../privacy/">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="container disclaimer">
+      © <span data-year></span> <span data-brand>GoldTrail Social</span>. 18+ ONLY. GoldTrail Social is social casino entertainment using virtual Gold Coins and Sweeps Coins. Virtual coins have no cash value. No real-money gambling is offered. NO PURCHASE NECESSARY. Void where prohibited. Open only to eligible US residents who are 18 years of age or older.
+    </div>
+  </footer>
+</body>
+</html>
