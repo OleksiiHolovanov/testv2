@@ -1114,3 +1114,11 @@ details p { color: #c9b995; }
     font-size: clamp(30px, 9.5vw, 40px);
   }
 }
+
+/* Header Sign Up button shadow fix: remove only the shadow from the header registration button. */
+.site-header .nav-actions .btn-primary,
+.site-header .nav-actions .btn-primary:hover,
+.site-header .nav-actions .btn-primary:focus-visible,
+.site-header .nav-actions .btn-primary:active {
+  box-shadow: none !important;
+}
